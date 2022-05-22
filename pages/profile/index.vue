@@ -1,5 +1,7 @@
 <template>
   <section class="flex-col px-24 py-24">
+    <h1 class="text-center font-gray-500 uppercase font-bold text-2xl mb-3">Profile Page</h1>
+
     <div class="bg-cover bg-center bg-gray-100 text-white object-fill rounded flex justify-center items-center h-96"
     :style="{ 'background-image': `${getImgUrlCover()}` }"
     >
@@ -157,7 +159,7 @@
         </div>
 
         <div class="w-full min-h-96 h-auto max-h-auto mb-5 p-4 rounded shadow-sm bg-gray-100">
-          <p>Message</p>
+          <p class="text-right pt-1 text-gray-600">Message</p>
 
           <div class="w-full flex-col mt-5" v-if="chatList.length">
             <div class="w-full bg-white-100" v-for="item in chatList" :key="item.id">
