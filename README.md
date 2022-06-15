@@ -67,3 +67,11 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+## `Features`
+
+- Domain USER dapat melakukan registrasi, login dan logout
+- Domain USER dapat melakukan percobaan verifikasi otp, permintaan ulang otp dan memasukkan otp
+- Domain USER memiliki halaman profil dimana terdapat avatar, cover profile dan galeri. untuk avatar dan cover buatlah proses upload photo, untuk galeri buatlah proses upload multiple photo
+- Domain USER memiliki halaman profile yang memiliki informasi karir dan pendidikan. Domain USER dapat memperbarui data tersebut
+- Domain USER dapat menerima pesan dari web service endpoint message
